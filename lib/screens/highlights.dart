@@ -9,23 +9,32 @@ class Highligthts extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.all(16.0),
-      child: Column(
-        children: [
-          Text('Highlights'),
-          ListView.builder(
-            //return of each item inside list
-            itemBuilder: (context, index) {
-              return HighlightItem(
+        padding: const EdgeInsets.fromLTRB(16.0, 16.0, 16.0, 0.0),
+        child: CustomScrollView(
+          slivers: <Widget>[
+            const SliverToBoxAdapter(
+              child: Padding(
+                padding: EdgeInsets.only(bottom: 16.0),
+                child: Text(
+                  "Highlights",
+                  style: TextStyle(fontFamily: "Caveat", fontSize: 32),
+                  textAlign: TextAlign.center,
+                ),
+              ),
+            ),
+            SliverList(
+                delegate: SliverChildBuilderDelegate(
+              (context, index) {
+                return HighlightItem(
                   imageURI: items[index]["image"],
                   itemTitle: items[index]["name"],
                   itemPrice: items[index]["price"],
-                  itemDescription: items[index]["description"]);
-            },
-            itemCount: items.length,
-          ),
-        ],
-      ),
-    );
+                  itemDescription: items[index]["description"],
+                );
+              },
+              childCount: items.length,
+            ))
+          ],
+        ));
   }
 }
