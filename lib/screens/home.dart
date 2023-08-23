@@ -16,8 +16,8 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     final List<Widget> pages = [
-      Highligthts(),
-      FoodMenu(),
+      const Highligthts(),
+      const FoodMenu(),
     ];
     return Scaffold(
       appBar: AppBar(
