@@ -44,7 +44,7 @@ const List<Object> highlitghts = [
   }
 ];
 
-const List<Object> comidas = [
+const List<Object> foods = [
   {
     "image": "$_imageInitialPath/chicken-tortilla.png",
     "name": "Chicken Tortilla",
