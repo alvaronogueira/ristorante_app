@@ -13,7 +13,7 @@ class PaymentTotal extends StatelessWidget {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
-              Text("Pedido:",
+              Text("Order:",
                   style: TextStyle(color: AppColors.paymentMethodReceiptColor)),
               const Text("R\$ 154,80"),
             ],
@@ -24,7 +24,7 @@ class PaymentTotal extends StatelessWidget {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
-              Text("Serviço (10%):",
+              Text("Tip (10%):",
                   style: TextStyle(color: AppColors.paymentMethodReceiptColor)),
               const Text("R\$ 15,48"),
             ],
@@ -53,7 +53,7 @@ class PaymentTotal extends StatelessWidget {
                   child: Icon(Icons.account_balance_wallet),
                 ),
                 Text(
-                  "Pedir",
+                  "Confirm",
                   style: TextStyle(fontWeight: FontWeight.w500),
                 )
               ]),
