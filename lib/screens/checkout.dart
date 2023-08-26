@@ -65,7 +65,7 @@ class Checkout extends StatelessWidget {
               child: Padding(
                 padding: const EdgeInsets.only(bottom: 8.0),
                 child: Text(
-                  'Cofirm',
+                  'Confirm',
                   style: TextStyle(fontSize: 24, fontWeight: FontWeight.w600),
                 ),
               ),
