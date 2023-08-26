@@ -136,7 +136,7 @@ const List<Object> drinks = [
   }
 ];
 
-const List<Object> pedido = [
+const List<Object> order = [
   {
     "image": "$_imageInitialPath/chicken-salad.png",
     "name": "Chicken Salad",
