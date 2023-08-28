@@ -50,7 +50,7 @@ class _HomeState extends State<Home> {
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
             icon: Icon(Icons.star_rounded),
-            label: 'Destaques',
+            label: 'Highlights',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.restaurant_menu),
@@ -58,7 +58,7 @@ class _HomeState extends State<Home> {
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.local_bar),
-            label: 'Bebidas',
+            label: 'Drinks',
           ),
         ],
         selectedItemColor: AppColors.bottomNavigationBarIconColor,
