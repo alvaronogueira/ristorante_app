@@ -5,28 +5,27 @@ const List<Object> highlitghts = [
     "name": "Chicken Salad",
     "price": "38.90",
     "description":
-        "Experimente o maravilhoso chicken salad da casa com temperos inesquecíveis e um sabor de dar água na boca!"
+        "Taste the wonderful chicken salad from home seasoning. Mouth-watering!"
   },
   {
     "image": "$_imageInitialPath/chicken-tender.png",
     "name": "Chicken Tender",
     "price": "29.59",
     "description":
-        "Mais uma vez um grande sucesso da casa: o chicken tender! Venha conhecer essa iguaria italiana com o famoso queijo de parma."
+        "One more time a great success from our Ristorante: Chicken Tender! Come to meet our italian delicacy with parma cheese."
   },
   {
     "image": "$_imageInitialPath/cold-noodles.png",
     "name": "Cold Noodles",
     "price": "17.50",
     "description":
-        "Como nada antes visto aqui em nosso restaurante, um novo prato para matar a sua fome e vontade de experimentar algo novo"
+        "A new dish to satisfy your hunger and experiment the best flavor"
   },
   {
     "image": "$_imageInitialPath/hamburger-ink.png",
     "name": "Hamburger Ink",
     "price": "28.50",
-    "description":
-        "Você pediu e nós ouvimos! Nosso hamburger de verão veio passar férias neste inverno aqui com a gente."
+    "description": "We hear You! We back our fantastic hamburger."
   },
   {
     "image": "$_imageInitialPath/lasagna-bolognese.jpg",
@@ -39,8 +38,7 @@ const List<Object> highlitghts = [
     "image": "$_imageInitialPath/shrimp-n-rice.png",
     "name": "Shrimp 'n rice",
     "price": "48.50",
-    "description":
-        "O que dizer desse prato que mal conheço e considero pacas? Aquela porção bem grande de arroz com os melhores camarões da região!"
+    "description": "Large portion of shrimp with spicy rice!"
   }
 ];
 
