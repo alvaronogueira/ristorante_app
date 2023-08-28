@@ -34,7 +34,7 @@ class DrinkItem extends StatelessWidget {
                   itemTitle,
                   style: const TextStyle(fontSize: 16),
                 ),
-                Text("R\$ $itemPrice"),
+                Text("\$ $itemPrice"),
               ],
             ),
           ),
