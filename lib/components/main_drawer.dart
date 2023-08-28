@@ -14,7 +14,7 @@ class MainDrawer extends StatelessWidget {
           children: <Widget>[
             ListTile(
                 title: Text(
-              "Mesa 03",
+              "Table 03",
               style: TextStyle(
                   fontSize: 16,
                   color: AppColors.drawerFontColor,
@@ -23,7 +23,7 @@ class MainDrawer extends StatelessWidget {
             ListTile(
               textColor: AppColors.drawerFontColor,
               title: const Text(
-                "Conta",
+                "Check",
                 style: TextStyle(fontWeight: FontWeight.w700),
               ),
             ),
@@ -42,7 +42,7 @@ class MainDrawer extends StatelessWidget {
                         child: Padding(
                       padding: EdgeInsets.symmetric(horizontal: 8.0),
                       child: Text(
-                        "Pedido Atual",
+                        "Atual Order",
                         style: TextStyle(fontWeight: FontWeight.w700),
                       ),
                     )),
@@ -64,7 +64,7 @@ class MainDrawer extends StatelessWidget {
                         child: Padding(
                       padding: EdgeInsets.symmetric(horizontal: 8.0),
                       child: Text(
-                        "Todos os pedidos",
+                        "All orders",
                         style: TextStyle(fontWeight: FontWeight.w700),
                       ),
                     )),
